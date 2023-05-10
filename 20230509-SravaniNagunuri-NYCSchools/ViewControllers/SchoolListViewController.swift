@@ -17,7 +17,6 @@ class SchoolListViewController: UIViewController {
     var refreshControl: UIRefreshControl!
     var selectedSchool: School?
     let spinner = UIActivityIndicatorView(style: .large)
-    var indexArray: [String]?
     
     lazy var listViewModel = SchoolsListViewModel()
     
